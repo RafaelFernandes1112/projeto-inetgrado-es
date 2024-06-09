@@ -34,21 +34,22 @@ body {
 .titulo {
 
     text-align: center;
-    font-size: 25px;
+    font-size: 45px;
     position: absolute;
-    margin-left: 120px;
+    margin-left: 140px;
+    line-height: 26px;
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 248, 248);
-    margin-top: -200px;
+    margin-top: -255px;
 
 
 }
 
 form {
     background: #9BCCFA;
-    width: 500px;
-    height: 500px;
+    width: 776px;
+    height: 700px;
     border-radius: 5%;
     align-content: center;
     display: inline-block;
@@ -58,8 +59,8 @@ form {
 
 .box {
     background: #ffffff;
-    width: 468px;
-    height: 750px;
+    width: 744px;
+    height: 1184px;
     padding: 16px;
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
@@ -71,11 +72,12 @@ form {
 }
 
 .logo {
-    padding-left: 80px;
+    margin-left: 150px;
     display: block;
-    max-width: 200px;
+    width: 161px;
+    height: 161px;    
     position: absolute;
-    top: -10px;
+    top: 60px;
 
 
 
@@ -87,13 +89,14 @@ form {
     width: 310px;
     height: 120px;
     color: #2260FF;
-    font-size: 26px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     word-wrap: break-word;
-    padding-left: 125px;
+    margin-left: 315px;
     display: block;
-    padding-top: 30px;
+    margin-top: 90px;
+    position: absolute;
 
 
 
@@ -103,20 +106,20 @@ form {
 .form {
     color: #03314B;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 24px;
     display: flex;
-    padding-left: 30px;
-    top: 140px;
+    padding-left: 62px;
+    top: 255px;
     position: absolute;
 }
 
 .form2 {
     color: #03314B;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 24px;
     display: flex;
-    padding-left: 30px;
-    margin-top: 320px;
+    padding-left: 56px;
+    margin-top: 714px;
     position: absolute;
 }
 
@@ -127,11 +130,11 @@ form {
 
 .input {
     padding-left: 10px;
-    margin-left: 40px;
-    margin-top: 9px;
+    margin-left: 58px;
+    margin-top: 280px;
     border-radius: 10px;
-    width: 390px;
-    height: 35px;
+    width: 616px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: inline-block;
@@ -141,11 +144,11 @@ form {
 
 .input2 {
     padding-left: 10px;
-    margin-left: 40px;
-    margin-top: 69px;
+    margin-left: 58px;
+    margin-top: 360px;
     border-radius: 10px;
-    width: 390px;
-    height: 35px;
+    width: 616px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -155,11 +158,11 @@ form {
 
 .input3 {
     padding-left: 10px;
-    margin-left: 40px;
-    margin-top: 190px;
+    margin-left: 58px;
+    margin-top: 520px;
     border-radius: 10px;
-    width: 180px;
-    height: 35px;
+    width: 294px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -169,11 +172,11 @@ form {
 
 .input4 {
     padding-left: 10px;
-    margin-left: 250px;
-    margin-top: 190px;
+    margin-left: 380px;
+    margin-top: 520px;
     border-radius: 10px;
-    width: 180px;
-    height: 35px;
+    width: 294px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -183,11 +186,11 @@ form {
 
 .input5 {
     padding-left: 10px;
-    margin-left: 40px;
-    margin-top: 129px;
+    margin-left:58px;
+    margin-top: 440px;
     border-radius: 10px;
-    width: 390px;
-    height: 35px;
+    width: 616px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -197,11 +200,11 @@ form {
 
 .input6 {
     padding-left: 10px;
-    margin-left: 40px;
-    margin-top: 361px;
+    margin-left: 58px;
+    margin-top: 760px;
     border-radius: 10px;
-    width: 120px;
-    height: 35px;
+    width: 150px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -211,11 +214,11 @@ form {
 
 .input7 {
     padding-left: 10px;
-    margin-left: 250px;
-    margin-top: 420px;
+    margin-left: 380px;
+    margin-top: 840px;
     border-radius: 10px;
-    width: 180px;
-    height: 35px;
+    width: 294px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -225,11 +228,11 @@ form {
 
 .input8 {
     padding-left: 10px;
-    margin-left: 40px;
-    margin-top: 420px;
+    margin-left: 58px;
+    margin-top: 840px;
     border-radius: 10px;
-    width: 180px;
-    height: 35px;
+    width: 294px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -239,11 +242,11 @@ form {
 
 .input9 {
     padding-left: 10px;
-    margin-left: 190px;
-    margin-top: 362px;
+    margin-left: 235px;
+    margin-top: 760px;
     border-radius: 10px;
-    width: 240px;
-    height: 35px;
+    width: 439px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -253,11 +256,11 @@ form {
 
 .input10 {
     padding-left: 10px;
-    margin-left: 40px;
-    margin-top: 250px;
+    margin-left: 58px;
+    margin-top: 600px;
     border-radius: 10px;
-    width: 180px;
-    height: 35px;
+    width: 294px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -267,11 +270,11 @@ form {
 
 .input11 {
     padding-left: 10px;
-    margin-left: 250px;
-    margin-top: 250px;
+    margin-left: 380px;
+    margin-top: 600px;
     border-radius: 10px;
-    width: 180px;
-    height: 35px;
+    width: 294px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -281,11 +284,11 @@ form {
 
 .input12 {
     padding-left: 10px;
-    margin-left: 40px;
-    margin-top: 480px;
+    margin-left: 58px;
+    margin-top: 920px;
     border-radius: 10px;
-    width: 80px;
-    height: 35px;
+    width: 294px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -295,11 +298,11 @@ form {
 
 .input13 {
     padding-left: 10px;
-    margin-left: 150px;
-    margin-top: 480px;
+    margin-left: 58px;
+    margin-top: 1000px;
     border-radius: 10px;
-    width: 280px;
-    height: 35px;
+    width: 616px;
+    height: 56px;
     opacity: 80%;
     position: absolute;
     display: block;
@@ -309,139 +312,139 @@ form {
 
 .input-label {
     position: absolute;
-    margin-top: 10px;
-    margin-left: 39px;
+    margin-top: 285px;
+    margin-left: 60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 
 }
 
 .input-label2 {
     position: absolute;
-    margin-top: 69px;
-    margin-left: 39px;
+    margin-top: 365px;
+    margin-left:60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label3 {
     position: absolute;
-    margin-top: 190px;
-    margin-left: 39px;
+    margin-top: 525px;
+    margin-left: 60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label4 {
     position: absolute;
-    margin-top: 190px;
-    margin-left: 250px;
+    margin-top: 525px;
+    margin-left: 380px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label5 {
     position: absolute;
-    margin-top: 129px;
-    margin-left: 38px;
+    margin-top: 445px;
+    margin-left: 60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label6 {
     position: absolute;
-    margin-top: 363px;
-    margin-left: 39px;
+    margin-top: 768px;
+    margin-left: 60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label7 {
     position: absolute;
-    margin-top: 420px;
-    margin-left: 250px;
+    margin-top: 849px;
+    margin-left: 380px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label8 {
     position: absolute;
-    margin-top: 420px;
-    margin-left: 40px;
+    margin-top: 849px;
+    margin-left: 60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label9 {
     position: absolute;
-    margin-top: 362px;
-    margin-left: 190px;
+    margin-top: 768px;
+    margin-left: 237px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label10 {
     position: absolute;
-    margin-top: 250px;
-    margin-left: 40px;
+    margin-top: 605px;
+    margin-left: 60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label11 {
     position: absolute;
-    margin-top: 250px;
-    margin-left: 250px;
+    margin-top: 605px;
+    margin-left: 380px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label12 {
     position: absolute;
-    margin-top: 480px;
-    margin-left: 40px;
+    margin-top: 927px;
+    margin-left: 60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input-label13 {
     position: absolute;
-    margin-top: 480px;
-    margin-left: 150px;
+    margin-top: 1005px;
+    margin-left: 60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
-    font-size: 15px;
+    font-size: 24px;
     color: #8f8e94;
 }
 
 .input:focus+.input-label,
 .input:valid+.input-label {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
@@ -451,7 +454,7 @@ form {
 .input2:focus+.input-label2,
 .input2:valid+.input-label2 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
@@ -460,7 +463,7 @@ form {
 .input3:focus+.input-label3,
 .input3:valid+.input-label3 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
@@ -469,7 +472,7 @@ form {
 .input4:focus+.input-label4,
 .input4:valid+.input-label4 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
@@ -478,7 +481,7 @@ form {
 .input5:focus+.input-label5,
 .input5:valid+.input-label5 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
@@ -487,7 +490,7 @@ form {
 .input6:focus+.input-label6,
 .input6:valid+.input-label6 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
@@ -496,7 +499,7 @@ form {
 .input7:focus+.input-label7,
 .input7:valid+.input-label7 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
@@ -505,7 +508,7 @@ form {
 .input8:focus+.input-label8,
 .input8:valid+.input-label8 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
@@ -514,43 +517,43 @@ form {
 .input9:focus+.input-label9,
 .input9:valid+.input-label9 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
 }
 
 .input10:focus+.input-label10,
-.input10:valid+.input-label10{
+.input10:valid+.input-label10 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
 }
 
 .input11:focus+.input-label11,
-.input11:valid+.input-label11{
+.input11:valid+.input-label11 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
 }
 
 .input12:focus+.input-label12,
-.input12:valid+.input-label12{
+.input12:valid+.input-label12 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
 }
 
 .input13:focus+.input-label13,
-.input13:valid+.input-label13{
+.input13:valid+.input-label13 {
     transform:
-        translate(10px, -10px) scale(.8);
+        translate(10px, -20px) scale(.8);
     color: #8f8e94;
     padding-inline: 5px;
     background-color: #fff;
@@ -611,12 +614,12 @@ form {
 
 .EnvButton {
     position: absolute;
-    top: 720px;
-    margin-left: 137px;
+    top: 1129px;
+    margin-left: 227px;
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
     font-weight: 600;
     color: #fff;
     background-color: #0216C5;
@@ -629,18 +632,33 @@ form {
 
 }
 
+.BackButton {
+    position: absolute;
+    top: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 22px;
+    justify-content: center;
+    place-items: center;
+    cursor: pointer;
+    transition: box-shadow 1x ease;
+
+
+}
+
 .EnvButton:hover {
-    box-shadow: inset 200px 0 0 #0008;
+    box-shadow: inset 400px 0 0 #0008;
 }
 
 
 .caixa {
     background-color: #79C7FF;
-    width: 240px;
-    height: 200px;
+    width: 330px;
+    height: 300px;
     display: flex;
     position: absolute;
-    margin-top: -250px;
+    margin-top: -350px;
     border-top-left-radius: 26px;
 
 
@@ -650,12 +668,12 @@ form {
 
 .caixa2 {
     background-color: #5DB1EF;
-    width: 200px;
+    width: 280px;
     height: 200px;
     display: flex;
     position: absolute;
-    margin-top: -150px;
-    left: 100px;
+    margin-top: -200px;
+    left: 130px;
 
 
 
@@ -663,57 +681,57 @@ form {
 
 .caixa3 {
     background-color: #5DB1EF;
-    width: 139px;
-    height: 80px;
+    width: 239px;
+    height: 148px;
     display: flex;
     position: absolute;
-    margin-top: -250px;
-    left: 360px;
+    margin-top: -350px;
+    left: 537px;
     border-top-right-radius: 26px;
 }
 
 .caixa4 {
     background-color: #321C89;
-    width: 4px;
+    width: 3px;
     height: 310px;
     display: flex;
     position: absolute;
-    margin-top: -220px;
-    left: 200px;
+    margin-top: -299px;
+    left: 340px;
     border-radius: 26px;
 }
 
 .caixa5 {
 
     background-color: #79C7FF;
-    width: 80px;
-    height: 131px;
+    width: 110px;
+    height: 220px;
     display: flex;
     position: absolute;
-    margin-top: -200px;
-    left: 420px;
-    
-  }
+    margin-top: -230px;
+    left: 666px;
+
+}
 
 .caixa6 {
     background-color: #321C89;
-    width: 39px;
-    height: 90px;
+    width: 49px;
+    height: 160px;
     display: flex;
     position: absolute;
-    margin-top: -150px;
-    left: 460px;
-    border-top-left-radius: 26px;
+    margin-top: -170px;
+    left: 727px;
+    border-top-left-radius: 52px;
 }
 
 
 
 
 .Vector {
-    width: 60px;
-    height: 70px;
+    width: 87px;
+    height: 88px;
     left: 30px;
-    top: 30px;
+    top: 68px;
     display: inline-block;
     border-radius: 50%;
     margin-top: 0px;
