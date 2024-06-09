@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style2.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
@@ -18,35 +18,37 @@
             <div class="caixa3"></div>
             <div class="caixa4"></div>
             <div class="caixa5"></div>
-            <div class="caixa6"></div> 
-            
-             
+            <div class="caixa6"></div>
+
+
 
 
             <div>
-                <svg class="Vector" xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94"
-                    fill="none">
-                    <g filter="url(#filter0_d_262_704)">
-                        <path
-                            d="M47 26.6L30.6 43M30.6 43L47 59.4M30.6 43H63.4M88 43C88 65.6437 69.6437 84 47 84C24.3563 84 6 65.6437 6 43C6 20.3563 24.3563 2 47 2C69.6437 2 88 20.3563 88 43Z"
-                            stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <filter id="filter0_d_262_704" x="0.5" y="0.5" width="93" height="93"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix"
-                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset dy="4" />
-                            <feGaussianBlur stdDeviation="2" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_262_704" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_262_704" result="shape" />
-                        </filter>
-                    </defs>
-                </svg>
-
+                <button class="BackButton">
+                    <svg class="Vector" xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94"
+                        fill="none">
+                        <g filter="url(#filter0_d_262_704)">
+                            <path
+                                d="M47 26.6L30.6 43M30.6 43L47 59.4M30.6 43H63.4M88 43C88 65.6437 69.6437 84 47 84C24.3563 84 6 65.6437 6 43C6 20.3563 24.3563 2 47 2C69.6437 2 88 20.3563 88 43Z"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_262_704" x="0.5" y="0.5" width="93" height="93"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="4" />
+                                <feGaussianBlur stdDeviation="2" />
+                                <feComposite in2="hardAlpha" operator="out" />
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_262_704" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_262_704"
+                                    result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </button>
 
                 <span class="titulo">
                     Cadastro de Paciente
@@ -56,7 +58,7 @@
 
 
 
-            <div class="box"><svg class="logo" width="100" height="162" viewBox="0 0 162 162" fill="none"
+            <div class="box"><svg class="logo" width="200" height="202" viewBox="0 0 162 162" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <circle cx="80.5323" cy="80.5323" r="80.5323" fill="#2260FF" />
                     <path
@@ -93,7 +95,7 @@
             <span>SobreVidas</span><br>
 
             <span
-                style="color: #767676; font-size: 24px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; word-wrap: break-word">
+                style="color: #767676; font-size: 35px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; word-wrap: break-word">
                 Câncer de Boca</span>
 
         </div>
@@ -104,29 +106,29 @@
         <div class="input-group">
             <div>
                 <input type="text" id="name" required class="input">
-                <label for="name" class="input-label">Nome Completo</label>
+                <label for="name" class="input-label">Nome Completo*</label>
             </div>
 
             <div>
                 <input type="text" id="mothername" required class="input2">
-                <label for="mothername" class="input-label2">Nome Completo da Mãe</label>
+                <label for="mothername" class="input-label2">Nome Completo da Mãe*</label>
             </div>
 
             <div>
                 <input type="text" id="email" required class="input5">
-                <label for="email" class="input-label5">Email</label>
+                <label for="email" class="input-label5">Email*</label>
             </div>
 
             <div>
                 <input type="text" id="cpf" required class="input3">
-                <label for="cpf" class="input-label3">CPF</label>
+                <label for="cpf" class="input-label3">CPF*</label>
             </div>
 
             <div>
                 <input type="text" id="sexo" required class="input4">
-                <label for="sexo" class="input-label4">Sexo</label>
+                <label for="sexo" class="input-label4">Sexo*</label>
             </div>
-           
+
 
             <header>
                 <h1 class="form2">Endereço / Território do Paciente</h1>
@@ -134,42 +136,42 @@
 
             <div>
                 <input type="text" id="UF" required class="input6">
-                <label for="UF" class="input-label6">UF</label>
+                <label for="UF" class="input-label6">UF*</label>
             </div>
 
             <div>
                 <input type="text" id="Bairro" required class="input7">
-                <label for="Bairro" class="input-label7">Bairro</label>
+                <label for="Bairro" class="input-label7">Bairro*</label>
             </div>
 
             <div>
                 <input type="text" id="CEP" required class="input8">
-                <label for="CEP" class="input-label8">CEP</label>
+                <label for="CEP" class="input-label8">CEP*</label>
             </div>
 
             <div>
                 <input type="text" id="Municipio" required class="input9">
-                <label for="Municipio" class="input-label9">Município</label>
+                <label for="Municipio" class="input-label9">Município*</label>
             </div>
 
             <div>
                 <input type="text" id="nasc" required class="input10">
-                <label for="nasc" class="input-label10">Data de Nascimento</label>
+                <label for="nasc" class="input-label10">Data de Nascimento*</label>
             </div>
 
             <div>
                 <input type="text" id="telefone" required class="input11">
-                <label for="telefone" class="input-label11">Telefone</label>
+                <label for="telefone" class="input-label11">Telefone*</label>
             </div>
 
             <div>
                 <input type="text" id="numero" required class="input12">
-                <label for="numero" class="input-label12">Número</label>
+                <label for="numero" class="input-label12">Número*</label>
             </div>
 
             <div>
                 <input type="text" id="complemento" required class="input13">
-                <label for="complemento" class="input-label13">Complemento</label>
+                <label for="complemento" class="input-label13">Complemento (não obrigatório)</label>
             </div>
 
 
@@ -177,7 +179,7 @@
 
         <button>
             <div class="EnvButton">
-                Enviar Fomulário
+                Validar Cadastro
             </div>
         </button>
         </div>
