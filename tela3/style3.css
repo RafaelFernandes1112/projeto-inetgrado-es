@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.popup {
+    width: 470px;
+    height: 630px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: flex;
+    position: absolute;
+    left: 38%;
+    top: 20%;
+    right: 50%;
+    bottom: 300px;
+    background-image: url(./img/Register.svg);
+    background-position-x: 430px;
+    background-position-y: 430px;
+    background-position: -100px;
+}
+
+.logo {
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    height: 157px;
+}
+
+.logo2 {
+    text-align: center;
+    width: 310px;
+    color: #9BCCFA;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    word-wrap: break-word;
+    margin-left: 175px;
+    display: block;
+    margin-top: 90px;
+    position: absolute;
+    line-height: -10px;
+}
+
+.dtob {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    left: 80px;
+    top: 240px;
+    position: absolute;
+}
+
+.input1 {
+    width: 295px;
+    height: 58px;
+    top: 278px;
+    left: 89px;
+    border-radius: 30px;
+    position: absolute;
+    border: #ffffff;
+}
+
+.CCPF {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    top: 364px;
+    left: 80px;
+    position: absolute;
+}
+
+.input2 {
+    width: 295px;
+    height: 58px;
+    top: 405px;
+    left: 89px;
+    border-radius: 30px;
+    position: absolute;
+    border: #ffffff;
+}
+
+button {
+    width: 261px;
+    height: 55px;
+    left: 105px;
+    top: 521px;
+    border-radius: 30px;
+    background-color: #FF0A0A;
+    border-color:#0008;
+    position: absolute;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+    transition: box-shadow 1x ease;
+}
+
+button:hover {
+    box-shadow: inset 400px 0 0 #0008;
+}
