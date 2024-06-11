@@ -97,10 +97,6 @@ form {
     display: block;
     margin-top: 90px;
     position: absolute;
-
-
-
-
 }
 
 .form {
@@ -312,6 +308,8 @@ form {
 
 .input-label {
     position: absolute;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-top: 285px;
     margin-left: 60px;
     transform: translate(10px, 10px);
@@ -324,6 +322,8 @@ form {
 .input-label2 {
     position: absolute;
     margin-top: 365px;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-left:60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
@@ -333,6 +333,8 @@ form {
 
 .input-label3 {
     position: absolute;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-top: 525px;
     margin-left: 60px;
     transform: translate(10px, 10px);
@@ -343,6 +345,8 @@ form {
 
 .input-label4 {
     position: absolute;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-top: 525px;
     margin-left: 380px;
     transform: translate(10px, 10px);
@@ -354,6 +358,8 @@ form {
 .input-label5 {
     position: absolute;
     margin-top: 445px;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-left: 60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
@@ -363,6 +369,8 @@ form {
 
 .input-label6 {
     position: absolute;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-top: 768px;
     margin-left: 60px;
     transform: translate(10px, 10px);
@@ -373,7 +381,9 @@ form {
 
 .input-label7 {
     position: absolute;
-    margin-top: 849px;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    margin-top: 847px;
     margin-left: 380px;
     transform: translate(10px, 10px);
     transition: transform .25s;
@@ -383,6 +393,8 @@ form {
 
 .input-label8 {
     position: absolute;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-top: 849px;
     margin-left: 60px;
     transform: translate(10px, 10px);
@@ -393,6 +405,8 @@ form {
 
 .input-label9 {
     position: absolute;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-top: 768px;
     margin-left: 237px;
     transform: translate(10px, 10px);
@@ -403,6 +417,8 @@ form {
 
 .input-label10 {
     position: absolute;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-top: 605px;
     margin-left: 60px;
     transform: translate(10px, 10px);
@@ -413,6 +429,8 @@ form {
 
 .input-label11 {
     position: absolute;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-top: 605px;
     margin-left: 380px;
     transform: translate(10px, 10px);
@@ -423,6 +441,8 @@ form {
 
 .input-label12 {
     position: absolute;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-top: 927px;
     margin-left: 60px;
     transform: translate(10px, 10px);
@@ -434,6 +454,8 @@ form {
 .input-label13 {
     position: absolute;
     margin-top: 1005px;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
     margin-left: 60px;
     transform: translate(10px, 10px);
     transition: transform .25s;
