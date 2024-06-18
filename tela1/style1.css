@@ -50,7 +50,7 @@
  form {
      background: #9BCCFA;
      width: 744px;
-     height: 500px;
+     height: 689px;
      border-radius: 5%;
      align-content: center;
      display: inline-block;
@@ -93,9 +93,10 @@
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bolder;
      word-wrap: break-word;
-     margin-left: 290px;
+     margin-left: 310px;
      display: block;
-     margin-top: 60px;
+     margin-top: 2dvh;
+     position: absolute;
 
 
 
@@ -108,8 +109,8 @@
      font-family: Arial, Helvetica, sans-serif;
      font-size: 24px;
      display: flex;
-     left: 50px;
-     margin-top: 8px;
+     left: 35px;
+     margin-top: 200px;
      position: absolute;
  }
 
@@ -117,7 +118,7 @@
      color: #03314B;
      font-family: Arial, Helvetica, sans-serif;
      font-size: 24px;
-     display: flex;
+     word-wrap: normal;
      padding-left: 30px;
      margin-top: 410px;
      position: absolute;
@@ -125,7 +126,11 @@
 
 
  .input-group {
-     position: relative;
+     position: absolte;
+     margin-top: 190px;
+     margin-left: 10px;
+
+
  }
 
  .input {
@@ -483,8 +488,8 @@
 
  .EnvButton {
      position: absolute;
-     top: 900px;
-     margin-left: 200px;
+     top: 1100px;
+     margin-left: 210px;
      padding: 10px;
      padding-left: 50px;
      padding-right: 50px;
@@ -497,21 +502,22 @@
      place-items: center;
      cursor: pointer;
      transition: box-shadow 1x ease;
+     position: absolute;
 
 
  }
 
  .EnvButton2 {
      position: absolute;
-     top: 20px;
+     top: 430px;
+     margin-left: -365px;
      font-size: 16px;
      font-weight: 600;
      background-color: transparent;
-     border-radius: 22px;
-     justify-content: center;
-     place-items: center;
+     border-radius: 22px; 
      cursor: pointer;
      transition: box-shadow 1x ease;
+     
 
 
  }
@@ -529,7 +535,7 @@
      height: 400px;
      display: flex;
      position: absolute;
-     margin-top: -250px;
+     margin-top: -240px;
      border-top-left-radius: 26px;
 
 
@@ -543,7 +549,7 @@
      height: 200px;
      display: flex;
      position: absolute;
-     margin-top: -140px;
+     margin-top: -130px;
      left: 130px;
      box-shadow: black;
 
@@ -558,7 +564,7 @@
      height: 130px;
      display: flex;
      position: absolute;
-     margin-top: -250px;
+     margin-top: -240px;
      left: 505px;
      border-top-right-radius: 26px;
  }
