@@ -656,7 +656,7 @@ form {
 
 .BackButton {
     position: absolute;
-    top: 0px;
+    margin-left: -380px;
     font-size: 16px;
     font-weight: 600;
     background-color: transparent;
